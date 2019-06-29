@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.auto-complete{
+    width : 100%;
+    border : 1px solid grey;
+    font-size : 20px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1),0 2px 4px 1px rgba(0,0,0,0.18);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auto-complete input{
+    width : 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size : 18px;
+    outline : none;
+    text-align : left;
+    padding : 5px;
+    border-bottom : 1px solid grey;
+}
+
+.auto-complete ul {
+    width : 100%;
+    font-size : 18px;
+    list-style-type: none;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.auto-complete ul::before{
+    content: ""
+}
+
+.auto-complete li{
+    cursor: pointer;
+    padding : 5px;
+}
